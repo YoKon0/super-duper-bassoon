@@ -1,0 +1,9 @@
+region = us-east-1
+environment = production
+vpc_cidr =
+vpc_azs =
+vpc_public_subnets =
+vpc_private_subnets =
+vpc_database_subnets =
+eks_version =
+eks_worker_instance_type = 
