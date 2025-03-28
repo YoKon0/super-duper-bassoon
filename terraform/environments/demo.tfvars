@@ -1,0 +1,12 @@
+region = "us-east-1"
+environment = "demo"
+vpc_cidr = "10.0.0.0/16"
+vpc_azs =["us-east-1a", "us-east-1b", "us-east-1c"]
+vpc_public_subnets =["10.0.0.0/24", "10.0.1.0/24", "10.0.2.0/24"]
+vpc_private_subnets =["10.0.10.0/24", "10.0.11.0/24", "10.0.12.0/24"]
+vpc_database_subnets =["10.0.20.0/24", "10.0.21.0/24", "10.0.22.0/24"]
+eks_version = "1.31"
+eks_worker_instance_type =  ["t2.micro"]
+eks_worker_min_size = 2
+eks_worker_max_size = 10
+eks_worker_desired_size = 3
